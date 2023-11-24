@@ -26,6 +26,18 @@ def find_images(directory: str) -> List[str]:
 
     return images
 
+def count_images(directory: str) -> int:
+    count = 0
+
+    for root, _, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+
+            if __is_image_file(file_path):
+                count += 1
+
+    return count
+
 def delete_corrupted_images(path: str):
     images = find_images(path)
     corrupted_images = list(filter(__is_image_corrupted, images))

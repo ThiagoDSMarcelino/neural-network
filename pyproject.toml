@@ -1,0 +1,15 @@
+[tool.mypy]
+python_version = "3.8"
+files = ["src/cats_vs_dogs", "src/art_style"]
+show_error_codes = true
+pretty = true
+no_implicit_optional = true
+local_partial_types = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_return_any = true
+
+[tool.black]
+line-length = 88
+target-version = ['py38']

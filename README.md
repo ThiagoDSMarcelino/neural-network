@@ -1,3 +1,7 @@
-# Cats VS Dogs AI
+## Cats VS Dogs AI
 
-This project was based on the dataset available [here](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset)
+Dataset available [here](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset)
+
+## Art style
+
+Dataset available [here](https://www.kaggle.com/datasets/thedownhill/art-images-drawings-painting-sculpture-engraving)
