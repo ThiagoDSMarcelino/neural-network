@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "Crossentropy",
+        "regularizers",
+        "relu",
+        "softmax"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
+}
